@@ -30,7 +30,6 @@ namespace HelloWorld
             // sbyte mySbyte = 127;
             // sbyte mySecondSbyte = -128;
  
- 
             //// 2 byte (16 bit) unsigned, where signed means it can be negative
             // ushort myUshort = 65535;
  
@@ -117,6 +116,45 @@ namespace HelloWorld
             // Console.WriteLine(itemPrices["cheese"].GetType());
             // Console.WriteLine(itemPrices["cheese"]);
             // Console.WriteLine(itemPrices["carrots"]);
+
+
+            //// Operators and Conditionals 
+            // int myInt = 5;
+            // myInt++; // 6 - ++ increments integer value by 1
+            // myInt += 6; // 12 - += increments integer value by 6 or the intger value that is passed in.
+            // myInt -= 2; // 10 - -= decrements integer value by 2 or the intger value that is passed in.s
+            // Console.WriteLine(myInt);
+
+            // int mySecondInt = 5;
+            // Console.WriteLine(myInt + mySecondInt);
+            // Console.WriteLine(myInt - mySecondInt);
+            // Console.WriteLine(myInt * mySecondInt);
+            // Console.WriteLine(myInt / mySecondInt);
+            // Console.WriteLine(myInt % mySecondInt);
+            // Console.WriteLine(myInt.Equals(10)); // You can also perform operation like 5 + 5 etc inside the Equals
+            // Console.WriteLine(myInt == 10);
+            // Console.WriteLine(myInt != 10);
+            // Console.WriteLine(myInt > 10);
+            // Console.WriteLine(myInt < 10);
+            // Console.WriteLine(myInt >= 10);
+            // Console.WriteLine(myInt <= 10);
+            // Console.WriteLine(myInt >= 10 && myInt <= 10);
+            // Console.WriteLine(myInt >= 10 || myInt <= 5);
+
+            //// C# Follows MDAS in Multiplication Division Addition Subtraction
+            
+            // Console.WriteLine(Math.Pow(5, 2));
+            // Console.WriteLine(Math.Sqrt(25));
+
+            // string myString = "Hello World";
+            // myString += ". Goodbye World.";
+            // myString = myString + " \"Third World\\ Departure.";
+            // Console.WriteLine(myString);
+
+            // string[] myStringArr = myString.Split(". ");
+            // Console.WriteLine(myStringArr[0]);
+            // Console.WriteLine(myStringArr[1]);
+            // Console.WriteLine(myStringArr[2]);
         }
     }
 }
