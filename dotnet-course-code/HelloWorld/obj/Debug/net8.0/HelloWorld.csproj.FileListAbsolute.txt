@@ -12,3 +12,18 @@
 /Users/daryltadeo/Desktop/Repositories/Others/Learning/C# .NET 8 with MS SQL Mastery 2024/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
 /Users/daryltadeo/Desktop/Repositories/Others/Learning/C# .NET 8 with MS SQL Mastery 2024/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
 /Users/daryltadeo/Desktop/Repositories/Others/Learning/C# .NET 8 with MS SQL Mastery 2024/dotnet-course-code/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/bin/Debug/net8.0/HelloWorld
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/bin/Debug/net8.0/HelloWorld.deps.json
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/bin/Debug/net8.0/HelloWorld.runtimeconfig.json
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/bin/Debug/net8.0/HelloWorld.dll
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/bin/Debug/net8.0/HelloWorld.pdb
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.sourcelink.json
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.dll
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/refint/HelloWorld.dll
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
+/Users/daryltadeo/Desktop/Repositories/Others/Learning/backend-course/dotnet-course-code/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
