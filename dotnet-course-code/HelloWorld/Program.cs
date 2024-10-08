@@ -66,6 +66,18 @@ namespace HelloWorld
  
             // bool myBool = true;
 
+
+
+
+
+
+
+
+
+
+
+
+
             //// Arrays you cannot add new items with this
             // string[] myGroceryArray = new string[2];
             // myGroceryArray[0] = "Guacamole";
@@ -118,6 +130,13 @@ namespace HelloWorld
             // Console.WriteLine(itemPrices["carrots"]);
 
 
+
+
+
+
+
+
+
             //// Operators and Conditionals 
             // int myInt = 5;
             // myInt++; // 6 - ++ increments integer value by 1
@@ -155,6 +174,119 @@ namespace HelloWorld
             // Console.WriteLine(myStringArr[0]);
             // Console.WriteLine(myStringArr[1]);
             // Console.WriteLine(myStringArr[2]);
+
+
+
+
+
+
+
+
+
+
+
+            //// Conditional Statements (if, if else, switch)
+            // int myInt = 5;
+            // int mySecondInt = 10;
+
+            // if(myInt < mySecondInt) {
+            //     myInt += 10;
+            // }
+
+            // Console.WriteLine(myInt);
+
+            // string myCow = "cow";
+            // string myCapitalizedCow = "Cow";
+
+            // if(myCow == myCapitalizedCow) {
+            //     Console.WriteLine("Equal");
+            // } else if(myCow == myCapitalizedCow.ToLower()) {
+            //     Console.WriteLine("Equal without case sensitivity");
+            // } else {
+            //     Console.WriteLine("Not Equal");
+            // }
+
+            // switch(myCow) {
+            //     case "cow":
+            //         Console.WriteLine("Lowercase");
+            //         break;
+            //     case "Cow":
+            //         Console.WriteLine("Capitalized");
+            //         break;
+            //     default:
+            //         Console.WriteLine("Default Run");
+            //         break;
+            // }
+
+
+
+
+
+
+
+
+
+
+            //// Loops (for, for each, while, do while)
+            int[] intsToCompress = new int[] { 10, 15, 20, 25, 30, 12, 34 };
+
+            DateTime startTime = DateTime.Now;
+            
+            int totalValue = intsToCompress[0] + intsToCompress[1] + intsToCompress[2] + intsToCompress[3] + intsToCompress[4] + intsToCompress[5] + intsToCompress[6];
+            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Manual Approach
+            // Console.WriteLine(totalValue); // Initial Value via manual add
+
+            // totalValue = 0;
+            // startTime = DateTime.Now;
+            // for(int i = 0; i < intsToCompress.Length; i++) {
+            //     totalValue += intsToCompress[i];
+            // }
+            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
+            // Console.WriteLine(totalValue);
+
+            // totalValue = 0;
+            // startTime = DateTime.Now;
+            // foreach(int intToCompress in intsToCompress) {
+            //     totalValue += intToCompress;
+            // }
+            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
+            // Console.WriteLine(totalValue);
+
+            // int index = 0;
+            // totalValue = 0;
+            // startTime = DateTime.Now;
+            // while(index < intsToCompress.Length) {
+            //     totalValue += intsToCompress[index];
+            //     index++;
+            // }
+            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
+            // Console.WriteLine(totalValue);
+
+            // index = 0;
+            // totalValue = 0;
+            // startTime = DateTime.Now;
+            // do { // Fastest Approach In Terms of Looping ....
+            //     totalValue += intsToCompress[index];
+            //     index++;
+            // } while(index < intsToCompress.Length);
+            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
+            // Console.WriteLine(totalValue);
+
+
+            // startTime = DateTime.Now;
+            // totalValue = 0;
+            // totalValue = intsToCompress.Sum();
+            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
+            // Console.WriteLine(totalValue);
+
+
+            totalValue = 0;
+            foreach(int intToCompress in intsToCompress) {
+                if(intToCompress > 20) {
+                    totalValue += intToCompress;
+                }
+            }
+            Console.WriteLine(totalValue);
         }
     }
 }
