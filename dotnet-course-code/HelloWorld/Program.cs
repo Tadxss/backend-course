@@ -4,8 +4,19 @@ namespace HelloWorld
 {
     internal class Program
     {
+        // Sample of Scopes or Scroping
+        static int AccesibleInt = 7;
+        
+        // Sample of Non Stattic Method where this one can access non static or static variables
+        // void TestMethod() {
+        //     Console.WriteLine(accesibleInt);
+        // }
+
         static void Main(string[] args)
         {
+            int accesibleInt = 5;
+            Console.WriteLine(accesibleInt);
+            Console.WriteLine(AccesibleInt);
             //// Startup Message
             // Console.WriteLine("Hello World!");
 
@@ -65,17 +76,6 @@ namespace HelloWorld
             // Console.WriteLine(myStringWithSymbols);
  
             // bool myBool = true;
-
-
-
-
-
-
-
-
-
-
-
 
 
             //// Arrays you cannot add new items with this
@@ -273,20 +273,34 @@ namespace HelloWorld
             // Console.WriteLine(totalValue);
 
 
-            // startTime = DateTime.Now;
-            // totalValue = 0;
-            // totalValue = intsToCompress.Sum();
-            // Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
-            // Console.WriteLine(totalValue);
 
 
+            // Sample of using Methods (Functions) 
+            startTime = DateTime.Now;
             totalValue = 0;
-            foreach(int intToCompress in intsToCompress) {
-                if(intToCompress > 20) {
-                    totalValue += intToCompress;
-                }
-            }
+            totalValue = GetSum(intsToCompress);
+            Console.WriteLine((DateTime.Now - startTime).TotalSeconds); // Check Processing Time for Loop Approach
             Console.WriteLine(totalValue);
+
+            int[] intsToCompress2 = new int[] { 23, 23, 53, 56, 83, 92 };
+            totalValue = GetSum(intsToCompress2);
+            Console.WriteLine(totalValue);
+
+            // totalValue = 0;
+            // foreach(int intToCompress in intsToCompress) {
+            //     if(intToCompress > 20) {
+            //         totalValue += intToCompress;
+            //     }
+            // }
+            // Console.WriteLine(totalValue);
+        }
+
+        static private int GetSum(int[] compressableIntArray) {
+            int totalValue = 0;
+            foreach(int intToCompress in compressableIntArray) {
+                totalValue += intToCompress;
+            }
+            return totalValue;
         }
     }
 }
